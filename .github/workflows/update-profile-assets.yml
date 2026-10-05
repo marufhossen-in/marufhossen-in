@@ -1,0 +1,39 @@
+name: Refresh profile activity assets
+
+on:
+  schedule:
+    - cron: "25 4 * * *" # daily; GitHub Actions schedules use UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-activity-assets
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # only for committing the generated SVGs
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v7
+
+      - name: Generate contribution, stats, and language cards
+        env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: python3 scripts/update_profile_assets.py
+
+      - name: Commit updated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contributions.svg assets/profile-stats.svg assets/languages.svg
+          if git diff --cached --quiet; then
+            echo "No profile asset changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: refresh profile activity assets"
+          git push

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 190" role="img" aria-labelledby="title desc">
+  <title id="title">Graphite and electric-blue developer banner</title>
+  <desc id="desc">A restrained dark technology motif with a fine grid, curved traces and cool blue highlights; decorative only.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080C12"/>
+      <stop offset="0.58" stop-color="#0B111A"/>
+      <stop offset="1" stop-color="#101A28"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78%" cy="50%" r="65%">
+      <stop offset="0" stop-color="#2563FF" stop-opacity=".30"/>
+      <stop offset=".52" stop-color="#00D9FF" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#05070B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563FF" stop-opacity="0"/>
+      <stop offset=".45" stop-color="#2563FF" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#00D9FF" stop-opacity=".18"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#95B8E8" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+  </defs>
+  <rect x="1" y="1" width="1118" height="188" rx="18" fill="url(#surface)" stroke="#223146"/>
+  <rect x="2" y="2" width="1116" height="186" rx="17" fill="url(#glow)"/>
+  <rect x="2" y="2" width="1116" height="186" rx="17" fill="url(#grid)"/>
+  <ellipse cx="894" cy="92" rx="186" ry="67" fill="#246BFF" opacity=".16" filter="url(#blur)"/>
+  <path d="M0 144 C180 144 180 68 364 68 S565 140 705 140 820 48 1000 48 1088 70 1120 70" fill="none" stroke="url(#trace)" stroke-width="1.4"/>
+  <path d="M0 158 C206 158 216 92 369 92 S574 158 717 158 843 68 1007 68 1091 90 1120 90" fill="none" stroke="#71BFFF" stroke-opacity=".18" stroke-width="1"/>
+  <path d="M0 130 C167 130 198 47 354 47 S550 125 690 125 818 31 980 31 1084 51 1120 51" fill="none" stroke="#6D9BFF" stroke-opacity=".14" stroke-width="1"/>
+  <g fill="#72D7FF">
+    <circle cx="364" cy="68" r="2.3" opacity=".75"/>
+    <circle cx="705" cy="140" r="2.3" opacity=".62"/>
+    <circle cx="1000" cy="48" r="2.3" opacity=".8"/>
+  </g>
+  <path d="M32 27V163" stroke="#2B73FF" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+  <circle cx="32" cy="27" r="3" fill="#66D8FF"/>
+  <circle cx="32" cy="163" r="3" fill="#2B73FF"/>
+  <g fill="#8A96A8" opacity=".72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.2">
+    <text x="52" y="42">INTERFACE ENGINEERING</text>
+    <text x="52" y="161">DESIGN  /  BUILD  /  REFINE</text>
+  </g>
+  <path d="M876 104h177" stroke="#D6E9FF" stroke-opacity=".12"/>
+  <path d="M876 111h94" stroke="#D6E9FF" stroke-opacity=".08"/>
+  <rect x="1058" y="35" width="30" height="30" rx="8" fill="#0A1421" stroke="#4D77B2" stroke-opacity=".45"/>
+  <path d="m1067 45 5 5-5 5M1075 55h6" fill="none" stroke="#8BDFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

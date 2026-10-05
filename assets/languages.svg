@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 346" role="img" aria-labelledby="title desc">
+<title id="title">Most-used programming languages in public repositories</title>
+<desc id="desc">Language share based on GitHub's language-byte totals for non-fork public repositories. Top languages: TypeScript, Python, JavaScript, CSS, HTML, Other.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1520"/><stop offset="1" stop-color="#080d14"/></linearGradient></defs>
+
+<rect x="1" y="1" width="898" height="344" rx="16" fill="url(#bg)" stroke="#203047"/>
+<text x="30" y="38" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="21" font-weight="600" fill="#F4F7FB" letter-spacing=".04em">LANGUAGE MIX · PUBLIC REPOSITORIES</text>
+<text x="870" y="38" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#91A0B3" text-anchor="end">UPDATED 05 OCT 2026</text>
+<text x="34" y="101" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#D6DEEA">TypeScript</text>
+<rect x="268" y="86" width="525" height="12" rx="6" fill="#182333"/>
+<rect x="268" y="86" width="505.5" height="12" rx="6" fill="#38bdf8"/>
+<text x="856" y="101" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#9AA8BB" text-anchor="end">96.3%</text><text x="34" y="140" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#D6DEEA">Python</text>
+<rect x="268" y="125" width="525" height="12" rx="6" fill="#182333"/>
+<rect x="268" y="125" width="10.0" height="12" rx="6" fill="#4f83ff"/>
+<text x="856" y="140" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#9AA8BB" text-anchor="end">1.9%</text><text x="34" y="179" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#D6DEEA">JavaScript</text>
+<rect x="268" y="164" width="525" height="12" rx="6" fill="#182333"/>
+<rect x="268" y="164" width="8.8" height="12" rx="6" fill="#9b8cff"/>
+<text x="856" y="179" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#9AA8BB" text-anchor="end">1.7%</text><text x="34" y="218" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#D6DEEA">CSS</text>
+<rect x="268" y="203" width="525" height="12" rx="6" fill="#182333"/>
+<rect x="268" y="203" width="3.0" height="12" rx="6" fill="#39c7a5"/>
+<text x="856" y="218" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#9AA8BB" text-anchor="end">0.1%</text><text x="34" y="257" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#D6DEEA">HTML</text>
+<rect x="268" y="242" width="525" height="12" rx="6" fill="#182333"/>
+<rect x="268" y="242" width="3.0" height="12" rx="6" fill="#f5c86b"/>
+<text x="856" y="257" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#9AA8BB" text-anchor="end">&lt;0.1%</text><text x="34" y="296" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#D6DEEA">Other</text>
+<rect x="268" y="281" width="525" height="12" rx="6" fill="#182333"/>
+<rect x="268" y="281" width="3.0" height="12" rx="6" fill="#6d7e96"/>
+<text x="856" y="296" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#9AA8BB" text-anchor="end">&lt;0.1%</text>
+<text x="34" y="324" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#91A0B3">GitHub language-byte totals · original public repositories only</text>
+</svg>
